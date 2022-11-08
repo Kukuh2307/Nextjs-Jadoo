@@ -4,6 +4,7 @@ import Accent1 from "../images/decor-intersect-1.svg";
 import Decortext from "../images/text-decor-hero.svg";
 import Link from "next/link";
 
+
 export default function Home() {
   return (    
     <div className="">
@@ -61,6 +62,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
+
           </div>
         </div>
       </section>
