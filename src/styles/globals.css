@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg.logo-style-1 .logo_svg__color-1{
+    @apply fill-black;
+}
+svg.logo-style-1 .logo_svg__color-2{
+    @apply fill-accent-1;
+}
+.shadow-custom-1{
+    @apply shadow-accent-2/30 shadow-[0_15px_30px];
+}

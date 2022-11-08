@@ -1,0 +1,20 @@
+1. npx create-next-app . atau npx create-next-app namaproject
+2. npm install -D tailwindcss postcss autoprefixer
+3. npx tailwindcss init -p
+4. tambahkan 
+-  "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}", di file tailwind.config.js
+5. tambahkan
+- @tailwind base;
+@tailwind components;
+@tailwind utilities; di file global.css
+6. buat konfigurasi path dengan nama jsconfig.json lalu isikan
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "module": "commonjs",
+        "target": "ES6"
+    },
+    "include": ["src/**/*"]
+}
