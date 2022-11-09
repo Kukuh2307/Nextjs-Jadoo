@@ -14,42 +14,42 @@ export default function Header() {
               <ul className="flex items-center">
                 <li className="">
                   {/* Destinations */}
-                  <Link href="/Destinations">
+                  <Link href="/Destinations" legacyBehavior>
                     <h6 className="px-9 text-gray-800">Destinations</h6>
                   </Link>
                 </li>
 
                 {/* Hotels */}
                 <li>
-                  <Link href="/Hotels">
+                  <Link href="/Hotels" legacyBehavior>
                     <h6 className="px-9 text-gray-800">Hotels</h6>
                   </Link>
                 </li>
 
                 {/* Fligths */}
                 <li>
-                  <Link href="/Fligths">
+                  <Link href="/Fligths" legacyBehavior>
                     <h6 className="px-9 text-gray-800">Fligths</h6>
                   </Link>
                 </li>
 
                 {/* Bookings */}
                 <li>
-                  <Link href="/Bookings">
+                  <Link href="/Bookings" legacyBehavior>
                     <h6 className="px-9 text-gray-800">Bookings</h6>
                   </Link>
                 </li>
 
                 {/* Login */}
                 <li>
-                  <Link href="/Login">
+                  <Link href="/Login" legacyBehavior>
                     <h6 className="px-9 text-gray-800">Login</h6>
                   </Link>
                 </li>
 
                 {/* Sign-up */}
                 <li>
-                  <Link href="/Sign-up">
+                  <Link href="/Sign-up" legacyBehavior>
                     <h6 className="px-5 text-gray-800 border border-gray-800 rounded-md mx-3">
                       Sign-up
                     </h6>
@@ -67,5 +67,5 @@ export default function Header() {
             {/* navbar */}
           </div>
         </header>
-  )
+  );
 }

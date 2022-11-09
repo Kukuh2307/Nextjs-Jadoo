@@ -11,7 +11,7 @@ import Traveler from "../../public/images/hero_traveller-1.png";
 
 
 export default function Home() {
-  return (    
+  return (
     <div className="">
       <Head>
         <title>Jadoo</title>
@@ -54,7 +54,10 @@ export default function Home() {
 
               {/* bagian bottom find out more*/}
               <div className="flex">
-                <Link href="/findOutMore" className="mr-11 bg-accent-1 shadow-custom-1 px-6 py-4 text-white rounded-xl">
+                <Link
+                  href="/findOutMore"
+                  className="mr-11 bg-accent-1 shadow-custom-1 px-6 py-4 text-white rounded-xl"
+                  legacyBehavior>
                   <h6>Find out more</h6>
                 </Link>
 
