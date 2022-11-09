@@ -15,44 +15,42 @@ export default function Header() {
                 <li className="">
                   {/* Destinations */}
                   <Link href="/Destinations" legacyBehavior>
-                    <h6 className="px-9 text-gray-800">Destinations</h6>
+                    <a href="/Destinations" className=' px-9 text-gray-800'>Destinations</a>
                   </Link>
                 </li>
 
                 {/* Hotels */}
                 <li>
                   <Link href="/Hotels" legacyBehavior>
-                    <h6 className="px-9 text-gray-800">Hotels</h6>
+                    <a href="/Hotels" className=' px-9 text-gray-800'>Hotels</a>
                   </Link>
                 </li>
 
                 {/* Fligths */}
                 <li>
                   <Link href="/Fligths" legacyBehavior>
-                    <h6 className="px-9 text-gray-800">Fligths</h6>
+                  <a href="/Flights" className=' px-9 text-gray-800'>Flights</a>
                   </Link>
                 </li>
 
                 {/* Bookings */}
                 <li>
                   <Link href="/Bookings" legacyBehavior>
-                    <h6 className="px-9 text-gray-800">Bookings</h6>
+                  <a href="/Bookings" className=' px-9 text-gray-800'>Bookings</a>
                   </Link>
                 </li>
 
                 {/* Login */}
                 <li>
                   <Link href="/Login" legacyBehavior>
-                    <h6 className="px-9 text-gray-800">Login</h6>
+                  <a href="/Login" className=' px-9 text-gray-800'>Login</a>
                   </Link>
                 </li>
 
                 {/* Sign-up */}
                 <li>
                   <Link href="/Sign-up" legacyBehavior>
-                    <h6 className="px-5 text-gray-800 border border-gray-800 rounded-md mx-3">
-                      Sign-up
-                    </h6>
+                    <a href="/Sign-up" className="px-5 text-gray-800 border border-gray-800 rounded-md mx-3">Sign Up</a>
                   </Link>
                 </li>
 

@@ -46,7 +46,7 @@ export default function Home() {
               <h1 className="text-accent-2 font-bold text-xl uppercase mb-6">Best Destinations around the world</h1>
 
               <h2 className="text-gray-900 font-serif text-[84px] leading-[89px] tracking-tighter mb-8">Travel, 
-              <span className="relative">enjoy
+              <span className="relative"> enjoy
               <span className="absolute left-0 top-full -mt-8 -z-10"><Decortext className="w-[385px] h-[12px] fill-accent-2"/></span>
               </span> and live a new and full life</h2>
 
@@ -56,9 +56,8 @@ export default function Home() {
               <div className="flex">
                 <Link
                   href="/findOutMore"
-                  className="mr-11 bg-accent-1 shadow-custom-1 px-6 py-4 text-white rounded-xl"
                   legacyBehavior>
-                  <h6>Find out more</h6>
+                    <a href="findOutMore" className="mr-11 bg-accent-1 shadow-custom-1 px-6 py-4 text-white rounded-xl">Find Out More</a>
                 </Link>
 
                 {/* bagian bottom play demo */}
