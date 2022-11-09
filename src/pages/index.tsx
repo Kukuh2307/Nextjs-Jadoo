@@ -1,8 +1,13 @@
 import Head from "next/head";
 import Header from "../components/Header";
+
+// hero section
 import Accent1 from "../images/decor-intersect-1.svg";
 import Decortext from "../images/text-decor-hero.svg";
 import Link from "next/link";
+import Image from "next/image";
+import Plane from "../../public/images/plane.png";
+import Traveler from "../../public/images/hero_traveller-1.png";
 
 export default function Home() {
   return (    
@@ -55,11 +60,29 @@ export default function Home() {
                 {/* bagian bottom play demo */}
                 <button className="flex items-center">
                   <span className="mr-6 bg-accent-2 text-white inline-flex items-center justify-center px-4 py-4 rounded-full shadow-custom-1">
-                  <span class="material-symbols-outlined">play_arrow</span>
+                  <span className="material-symbols-outlined">play_arrow</span>
                   </span>
                   <span className="text-gray-500">Play Demo</span>
                 </button>
               </div>
+            </div>
+
+            {/* kanan */}
+            <div className="w-6/12 pt-24 relative">
+              <div className="absolute w-[137px] h-[95px] z-30">
+                {/* pesawat 1 */}
+                <Image alt="plane" layout="responsive" src={Plane} priority className="max-w-md relative left-[60px]"/>
+              </div>
+              {/* pesawat 2 */}
+              <div className="absolute w-[137px] h-[95px] z-10">
+                <Image alt="plane" layout="responsive" src={Plane} priority className="max-w-md relative left-[460px] -bottom-24"/>
+              </div>
+              {/* traveller */}
+              <div className="relative z-20 transform translate-x-16">
+              <Image alt="plane" layout="responsive" src={Traveler} priority className="max-w-2xl relative -left-40 -bottom-14"/>
+              </div>
+
+              {/* 01.45.09 */}
             </div>
           </div>
         </div>
