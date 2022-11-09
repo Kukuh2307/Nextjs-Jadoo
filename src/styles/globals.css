@@ -11,3 +11,12 @@ svg.logo-style-1 .logo_svg__color-2{
 .shadow-custom-1{
     @apply shadow-accent-2/30 shadow-[0_15px_30px];
 }
+svg.decor-plus-style-1 .decor-plus-style-1_svg__gray{
+    @apply fill-gray-200;
+}
+svg.decor-plus-style-1 .decor-plus-style-1_svg__color-1{
+    @apply fill-accent-5;
+}
+svg.decor-plus-style-1 .decor-plus-style-1_svg__color-2{
+    @apply fill-accent-6;
+}

@@ -9,6 +9,9 @@ import Image from "next/image";
 import Plane from "../../public/images/plane.png";
 import Traveler from "../../public/images/hero_traveller-1.png";
 
+// category section
+import DecorPlus1 from "../images/decor-plus-style-1.svg";
+
 
 export default function Home() {
   return (
@@ -90,6 +93,24 @@ export default function Home() {
 
           </div>
         </div>
+      </section>
+
+      <section className="mb-32">
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="absolute w-36 h-36 lg:right-10 -top-10">
+            <DecorPlus1 clasName="decor-plus-style-1"/>
+          </div>
+          <div className="text-center flex-col mb-16">
+            <h3 className="uppercase mb-2 text-gray-500 text-lg">CATEGORY</h3>
+            <h3 className="font-serif leading-snug text-gray-900 text-7xl">We Offer Best Services</h3>
+          </div>
+          <div className="flex text-gray-900">
+            <div className="w-3/12 px-8">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]"></div>
+            </div>
+          </div>
+        </div>
+        {/* 01.57.12 */}
       </section>
     </div>
   );
