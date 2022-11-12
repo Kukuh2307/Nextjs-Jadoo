@@ -11,6 +11,12 @@ import Traveler from "../../public/images/hero_traveller-1.png";
 
 // category section
 import DecorPlus1 from "../images/decor-plus-style-1.svg";
+import Radar from "../../public/images/ilustration-satellite.png";
+import Mic from "../../public/images/ilustration-mic.png";
+import Gear from "../../public/images/ilustration-gear.png";
+
+//top selling section
+import Squirel from "../images/decor-plus-style1.svg";
 
 
 export default function Home() {
@@ -87,8 +93,6 @@ export default function Home() {
               <div className="relative z-20 transform translate-x-16">
               <Image alt="plane" layout="responsive" src={Traveler} priority className="max-w-2xl relative -left-40 -bottom-14"/>
               </div>
-
-              {/* 01.45.09 */}
             </div>
 
           </div>
@@ -105,12 +109,84 @@ export default function Home() {
             <h3 className="font-serif leading-snug text-gray-900 text-7xl">We Offer Best Services</h3>
           </div>
           <div className="flex text-gray-900">
-            <div className="w-3/12 px-8">
-              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]"></div>
+
+            <div className="flex justify-between">
+              {/* radar */}
+              <div className="px-6">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-2 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-lg w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="absolute z-10 transform translate-y-1/2 translate-x-1/2 -right-11 w-20">
+                    <Image alt="Radar" layout="fixed" width={60} height={60} src={Radar} />
+                  </div>
+                  <div className="absolute bottom-0 left-5 transform translate-x-1/2 bg-accent-4 rounded-tl-lg rounded-tr-md rounded-bl-md rounded-br-2xl w-12 h-12 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:bottom-14"></div>
+                </div>
+                <h4 className="text-xl mb-3">Calculated Weather</h4>
+                <h5 className="px-8 mb-8">Built Wicket longer admire do barton vanity itself do in it.</h5>
+              </div>
+              </div>
+
+              {/* plane */}
+              <div className="px-6">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-2 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-lg w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="absolute z-10 transform translate-y-1/2 translate-x-1/2 -right-11 w-36 -top-20">
+                    <Image alt="Plane" layout="fixed" width={700} height={700} src={Plane} />
+                  </div>
+                  <div className="absolute bottom-12 left-5 transform translate-x-1/2 bg-accent-4 rounded-tl-lg rounded-tr-md rounded-bl-md rounded-br-2xl w-12 h-12 transition-all duration-300 opacity-0 group-hover:opacity-100 bo12 group-hover:-bottom-1"></div>
+                </div>
+                <h4 className="text-xl mb-3">Best Flights</h4>
+                <h5 className="px-8 mb-8">Engrossed listening. Park gate sell they west hard for the.</h5>
+              </div>
+              </div>
+
+              {/* event */}
+              <div className="px-6">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-2 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-lg w-28 h-28 "></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="absolute z-10 transform translate-y-1/2 translate-x-1/2 -right-11 w-12 -top-5">
+                    <Image alt="Radar" layout="fixed" width={60} height={60} src={Mic}/>
+                  </div>
+                  <div className="absolute bottom-0 left-5 transform translate-x-1/2 bg-accent-4 rounded-tl-lg rounded-tr-md rounded-bl-md rounded-br-2xl w-12 h-12 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:bottom-14"></div>
+                </div>
+                <h4 className="text-xl mb-3">Local Events</h4>
+                <h5 className="px-8 mb-8">Barton vanity itself do in it. Preferd to men it engrossed listening. </h5>
+              </div>
+              </div>
+
+              {/* costumization */}
+              <div className="px-6">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-2 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-lg w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="absolute z-10 transform translate-y-1/2 translate-x-1/2 -right-11 w-20">
+                    <Image alt="Gear" layout="fixed" width={60} height={60} src={Gear} />
+                  </div>
+                  <div className="absolute bottom-12 left-5 transform translate-x-1/2 bg-accent-4 rounded-tl-lg rounded-tr-md rounded-bl-md rounded-br-2xl w-12 h-12 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:-bottom-1"></div>
+                </div>
+                <h4 className="text-xl mb-3">Customization</h4>
+                <h5 className="px-8 mb-8">We deliver outsourced aviation services for military customers</h5>
+              </div>
+              </div>
             </div>
           </div>
         </div>
-        {/* 01.57.12 */}
+      </section>
+
+      <section className="mb-28">
+        <div className="max-w-7xl mx-auto relative px-4">
+        <div className="text-center flex flex-col mb-16">
+          <h3 className="uppercase mb-2 text-gray-500 text-lg">Top Selling</h3>
+          <h3 className="font-serif leading-snug text-gray-900 text-7xl">Top Destinations</h3>
+        </div>
+        <div className="relative flex pr-10">
+          <div className="absolute w-[96px] h-[252px] bottom-10 right-0">
+            <Squirel className="stroke-gray-500"/>
+          </div>
+        </div>
+        </div>
       </section>
     </div>
   );
