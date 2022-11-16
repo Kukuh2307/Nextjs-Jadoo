@@ -20,3 +20,6 @@ svg.decor-plus-style-1 .decor-plus-style-1_svg__color-1{
 svg.decor-plus-style-1 .decor-plus-style-1_svg__color-2{
     @apply fill-accent-6;
 }
+.shadow-great{
+    @apply shadow-xl
+}
