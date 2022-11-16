@@ -21,6 +21,10 @@ import Destination1 from "../../public/images/Destination1.jpg";
 import Destination2 from "../../public/images/Destination2.jpg";
 import Destination3 from "../../public/images/Destination3.jpg";
 
+// Easy and Fast
+import EasyAndFast1 from "../../public/images/EasyAndFast1.jpg";
+import EasyAndFast2 from "../../public/images/EasyAndFast2.jpg";
+
 export default function Home() {
   return (
     <div className="">
@@ -220,7 +224,7 @@ export default function Home() {
                   <h4 className="text-xl mb-3">Local Events</h4>
                   <h5 className="px-8 mb-8">
                     Barton vanity itself do in it. Preferd to men it engrossed
-                    listening.{" "}
+                    listening.
                   </h5>
                 </div>
               </div>
@@ -286,7 +290,9 @@ export default function Home() {
                     <h6 className="text-lg">$5,42k</h6>
                   </div>
                   <div className="pt-4 px-5 items-center">
-                    <span className="material-symbols-outlined mr-2 relative">near_me</span>
+                    <span className="material-symbols-outlined mr-2 relative">
+                      near_me
+                    </span>
                     <span className="absolute">10 Days Trip</span>
                   </div>
                 </div>
@@ -310,7 +316,9 @@ export default function Home() {
                     <h6 className="text-lg">$4.2k</h6>
                   </div>
                   <div className="pt-4 px-5 items-center">
-                    <span className="material-symbols-outlined mr-2 relative">near_me</span>
+                    <span className="material-symbols-outlined mr-2 relative">
+                      near_me
+                    </span>
                     <span className="absolute">12 Days Trip</span>
                   </div>
                 </div>
@@ -334,8 +342,155 @@ export default function Home() {
                     <h6 className="text-lg">$15k</h6>
                   </div>
                   <div className="pt-4 px-5 items-center">
-                    <span className="material-symbols-outlined mr-2 relative">near_me</span>
+                    <span className="material-symbols-outlined mr-2 relative">
+                      near_me
+                    </span>
                     <span className="absolute">28 Days Trip</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Easy and Fast */}
+      <section className="mb-28">
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="flex">
+            {/* kiri */}
+            <div className="w-6/12 pl-8 pr-20">
+              <div className="flex flex-col mb-16">
+                <div className="text-left flex flex-col mb-16">
+                  <h3 className="mb-2 text-gray-500 text-lg">Easy and Fast</h3>
+                  <h3 className="font-serif leading-snug text-gray-900 text-5xl mb-10">
+                    Book your next trip in 3 easy steps
+                  </h3>
+                  <ul className="flex flex-col gap-y-10 pr-10">
+                    {/* Choose destination */}
+                    <li className="flex items-center">
+                      <span className="bg-accent-1 rounded-xl flex flex-none text-white items-center justify-center w-12 h-12">
+                        <span className="material-symbols-outlined">
+                          ads_click
+                        </span>
+                      </span>
+                      <div className="flex flex-col ml-4 leading-5">
+                        <h6 className="font-bold mb-1 text-gray-500">
+                          Choose Destination
+                        </h6>
+                        <p className="font[400] text-gray-400">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Urna, tortor tempus.
+                        </p>
+                      </div>
+                    </li>
+
+                    {/*  Make payment */}
+                    <li className="flex items-center">
+                      <span className="bg-accent-2 rounded-xl flex flex-none text-white items-center justify-center w-12 h-12">
+                        <span className="material-symbols-outlined">
+                          credit_card
+                        </span>
+                      </span>
+                      <div className="flex flex-col ml-4 leading-5">
+                        <h6 className="font-bold mb-1 text-gray-500">
+                          Make Payment
+                        </h6>
+                        <p className="font[400] text-gray-400">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Urna, tortor tempus.
+                        </p>
+                      </div>
+                    </li>
+
+                    {/* Reach Airport on Selected Date */}
+                    <li className="flex items-center">
+                      <span className="bg-accent-7 rounded-xl flex flex-none text-white items-center justify-center w-12 h-12">
+                        <span className="material-symbols-outlined">
+                          directions_bus
+                        </span>
+                      </span>
+                      <div className="flex flex-col ml-4 leading-5">
+                        <h6 className="font-bold mb-1 text-gray-500">
+                          Reach Airport on Selected Date
+                        </h6>
+                        <p className="font[400] text-gray-400">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Urna, tortor tempus.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* kanan */}
+            <div className="w-5/12 flex items-center justify-center">
+              {/* blur */}
+              <div className="w-[730px] relative">
+                <div className="w-60 h-60 rounded-full blur-3xl absolute z-10 top-10 -right-10 bg-accent-8/40"></div>
+                {/* card small */}
+                <div className="absolute bottom-16 transform translate-x-1/2 bg-white rounded-2xl w-[263px] z-30 shadow-great p-4 pr-7 ml-72">
+                  <div className="flex">
+                    <div className="w-12 h-12 overflow-hidden rounded-full flex-none mr-3">
+                      <Image
+                        alt="Easy and Fast2"
+                        layout="responsive"
+                        className="mt-0.5"
+                        width={100}
+                        height={100}
+                        src={EasyAndFast2}
+                      />
+                    </div>
+                    <div className="flex flex-col w-full mb-2">
+                      <span className="text-sm text-gray-500">Ongoing</span>
+                      <h6 className="text-gray-900 mb-2">Trip to rome</h6>
+                      <span className="text-sm mb-1">
+                        <span className="text-accent-6">40% </span>
+                        <span className="text-gray-900">compelete</span>
+                      </span>
+                      <span className="w-full bg-gray-200 h-1 rounded-full overflow-hidden flex">
+                        <span className="rounded-full bg-accent-6 w-20 h-full"></span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                {/* card big */}
+                <div className="bg-white w-full rounded-2xl h-full relative z-20 shadow-great pt-4 pb-5">
+                  <div className="mx-4 relative overflow-hidden mb-5">
+                    <Image
+                      alt="Easy and Fast1"
+                      layout="responsive"
+                      className="object-cover rounded-3xl"
+                      src={EasyAndFast1}
+                    />
+                  </div>
+                  <h6 className="text-gray-900 mb-2 mx-5">Trip To Greece</h6>
+                  <span className="text-gray-400 mx-5 block mb-6">
+                    14-29 June | by Robbin joseph
+                  </span>
+
+                  <div className="flex justify-between w-60 mb-5 text-slate-400">
+                    <span className="material-symbols-outlined rounded-full w-12 h-12 bg-slate-50 ml-8 flex justify-center items-center">
+                      eco
+                    </span>
+                    <span className="material-symbols-outlined rounded-full w-12 h-12 bg-slate-50 ml-8 flex justify-center items-center">
+                      payments
+                    </span>
+                    <span className="material-symbols-outlined rounded-full w-12 h-12 bg-slate-50 ml-8 flex justify-center items-center">
+                      near_me
+                    </span>
+                  </div>
+
+                  <div className="flex justify-between px-6 w-full ">
+                    <div className="flex justify-around w-48 mb-3">
+                      <span className="material-symbols-outlined text-slate-400">
+                        bar_chart
+                      </span>
+                      <h6 className="text-slate-400 pl-5">24 People going</h6>
+                    </div>
+                    <span className="material-symbols-outlined text-accent-6">favorite</span>
                   </div>
                 </div>
               </div>
