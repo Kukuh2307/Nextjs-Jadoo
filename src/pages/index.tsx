@@ -473,10 +473,10 @@ export default function Home() {
 
                   <div className="flex justify-between w-60 mb-5 text-slate-400">
                     <span className="material-symbols-outlined rounded-full w-12 h-12 bg-slate-50 ml-8 flex justify-center items-center">
-                      eco
+                      spa
                     </span>
                     <span className="material-symbols-outlined rounded-full w-12 h-12 bg-slate-50 ml-8 flex justify-center items-center">
-                      payments
+                      map
                     </span>
                     <span className="material-symbols-outlined rounded-full w-12 h-12 bg-slate-50 ml-8 flex justify-center items-center">
                       near_me
@@ -486,7 +486,7 @@ export default function Home() {
                   <div className="flex justify-between px-6 w-full ">
                     <div className="flex justify-around w-48 mb-3">
                       <span className="material-symbols-outlined text-slate-400">
-                        bar_chart
+                        apartment
                       </span>
                       <h6 className="text-slate-400 pl-5">24 People going</h6>
                     </div>
