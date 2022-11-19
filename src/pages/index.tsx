@@ -25,6 +25,9 @@ import Destination3 from "../../public/images/Destination3.jpg";
 import EasyAndFast1 from "../../public/images/EasyAndFast1.jpg";
 import EasyAndFast2 from "../../public/images/EasyAndFast2.jpg";
 
+// testimonial
+import Testimonial from "../components/testimonial";
+
 export default function Home() {
   return (
     <div className="">
@@ -498,6 +501,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* testimonial 02.59 */}
+      <Testimonial />
     </div>
   );
 }
