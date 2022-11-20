@@ -18,6 +18,7 @@ module.exports = {
         "accent-6":"#6246E5",
         "accent-7":"#006380",
         "accent-8":"#59B1E6",
+        "accent-9":"#DFD7F9",
       }
     },
   },
