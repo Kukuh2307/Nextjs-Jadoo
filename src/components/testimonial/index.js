@@ -40,6 +40,7 @@ export default function Testimonial() {
     const [realSlide, setrealSlide] = useState(0)
     const swiper = useRef()
 
+    // constanta tombol up
     const fnPrev = React.useCallback(
         () => {
             if (realSlide >= 0) swiper?.current?.slidePrev()
@@ -47,6 +48,7 @@ export default function Testimonial() {
         { swiper, realSlide },
     )
 
+    // constanta tombol down
     const fnNext = React.useCallback(
         () => {
             if (realSlide < items.length) swiper?.current?.slideNext()
@@ -58,7 +60,7 @@ export default function Testimonial() {
         <section className='mb-28'>
             <div className='max-w-7xl mx-auto relative px-4 flex'>
                 <div className=' flex flex-col mb-16'>
-                    <div className='text-left flex flex-col mb-16 w-6/12'>
+                    <div className='text-left flex flex-col mb-16 w-7/12'>
                         <h3 className="mb-2 text-gray-500 text-lg">Testimonial</h3>
                         <h3 className="font-serif leading-snug text-gray-900 text-5xl mb-10">
                             What people say about Us.

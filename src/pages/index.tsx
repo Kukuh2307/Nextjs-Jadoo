@@ -28,6 +28,15 @@ import EasyAndFast2 from "../../public/images/EasyAndFast2.jpg";
 // testimonial
 import Testimonial from "../components/testimonial";
 
+// support by
+import Axon from "../../public/images/supportby/axon.jpg";
+import Expedia from "../../public/images/supportby/Expedia.jpg";
+import Jetstar from "../../public/images/supportby/jetstar.jpg";
+import Qantas from "../../public/images/supportby/qantas.jpg";
+import Alitalia from "../../public/images/supportby/alitalia.jpg";
+
+
+
 export default function Home() {
   return (
     <div className="">
@@ -502,8 +511,67 @@ export default function Home() {
         </div>
       </section>
 
-      {/* testimonial 02.59 */}
+      {/* testimonial */}
       <Testimonial />
+
+      <section className="mb-28">
+        <div className="flex justify-between px-20 mx-auto ">
+          {/* Axon */}
+          <div className="relative flex justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
+            {/* pesawat 1 */}
+            <Image
+              alt="axon"
+              layout="responsive"
+              src={Axon}
+              priority
+            />
+          </div>
+
+          {/* Expedia */}
+          <div className="relative px-10 flex justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
+            {/* pesawat 1 */}
+            <Image
+              alt="axon"
+              layout="responsive"
+              src={Expedia}
+              priority
+            />
+          </div>
+
+          {/* Jetstar */}
+          <div className="relative px-10 flex justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
+            {/* pesawat 1 */}
+            <Image
+              alt="axon"
+              layout="responsive"
+              src={Jetstar}
+              priority
+            />
+          </div>
+
+          {/* Alitalia */}
+          <div className="relative px-10 flex justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
+            {/* pesawat 1 */}
+            <Image
+              alt="axon"
+              layout="responsive"
+              src={Alitalia}
+              priority
+            />
+          </div>
+
+          {/* Qantas */}
+          <div className="relative px-10 flex justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
+            {/* pesawat 1 */}
+            <Image
+              alt="axon"
+              layout="responsive"
+              src={Qantas}
+              priority
+            />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
