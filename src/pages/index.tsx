@@ -38,6 +38,9 @@ import Alitalia from "../../public/images/supportby/alitalia.jpg";
 //subscribe
 import Rectangle from "../images/decor-elips1.svg";
 
+//footer
+import Footer from "../components/Footer";
+
 
 
 export default function Home() {
@@ -577,7 +580,7 @@ export default function Home() {
       </section>
 
       {/* subscribe */}
-      <section className="mb-32">
+      <section className="mb-28">
         <div className="max-w-7xl mx-auto relative px-4">
           <div className="absolute w-36 h-36 lg:-right-32 -bottom-[380px] -z-20 transform rotate-90 translate-y-2">
             <DecorPlus1 />
@@ -613,6 +616,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* footer */}
+      <Footer />
     </div>
   );
 }
