@@ -620,9 +620,6 @@ export default function Home() {
               </fieldset>
               <button className="rounded-tl-none rounded-bl-none lg:rounded-tl-lg lg:rounded-bl-lg rounded-lg text-white bg-gradient-to-b from-accent-2/90 to-accent-2 py-5 px-4 lg:px-16">
                 <span className="hidden lg:block">Subscribe</span>
-                <span className="block lg:hidden material-symbols-outlined">
-                  search
-                </span>
               </button>
             </div>
           </div>
