@@ -30,7 +30,7 @@ import Testimonial from "../components/testimonial";
 
 // support by
 import Axon from "../../public/images/supportby/axon.jpg";
-import Expedia from "../../public/images/supportby/Expedia.jpg";
+import Expedia from "../../public/images/supportby/expedia.jpg";
 import Jetstar from "../../public/images/supportby/jetstar.jpg";
 import Qantas from "../../public/images/supportby/qantas.jpg";
 import Alitalia from "../../public/images/supportby/alitalia.jpg";
