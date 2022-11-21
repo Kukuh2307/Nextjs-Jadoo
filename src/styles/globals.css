@@ -21,5 +21,8 @@ svg.decor-plus-style-1 .decor-plus-style-1_svg__color-2{
     @apply fill-accent-6;
 }
 .shadow-great{
-    @apply shadow-xl
+    @apply shadow-xl;
+}
+.bg-gradient-social{
+    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
 }
