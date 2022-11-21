@@ -108,7 +108,7 @@ export default function Footer() {
                     <span className='hover:text-accent-1 transition duration-300'> Kisawa16</span>
                 </h6>
             </div>
-            <div className='absolute rounded-full w-40 h-40 bg-accent-3 blur-3xl -z-20 top-72 -right-12'></div>
+            <div className='absolute rounded-full w-40 h-40 bg-accent-3 blur-3xl -z-20 top-72 -right-36'></div>
         </div>
     )
 }

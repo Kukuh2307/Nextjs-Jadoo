@@ -585,14 +585,14 @@ export default function Home() {
           <div className="absolute w-36 h-36 lg:-right-32 -bottom-[380px] -z-20 transform rotate-90 translate-y-2">
             <DecorPlus1 />
           </div>
-          <div className="absolute z-20 -top-7 -right-16 bg-accent-1 text-white rounded-full">
+          <div className="absolute z-20 -top-7 -right-5 bg-accent-6 bg-gradient-to-t from-accent-2/50 to-accent-2 text-white rounded-full">
             <span className="material-symbols-outlined w-16 h-16 flex justify-center items-center">
               near_me
             </span>
           </div>
         </div>
-        <div className="relative px-20">
-          <div className="bg-accent-9 rounded-tl-[120px] overflow-hidden rounded-3xl relative -z-20 pt-20 pb-20 mb-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-accent-9/70 rounded-tl-[120px] overflow-hidden rounded-3xl relative -z-20 pt-20 pb-20 mb-8">
             <div className="absolute -top-10 -right-40">
               {/* rectangle top right */}
               <Rectangle className="stroke-accent-6 opacity-10 -rotate-90 w-1/2" />
@@ -601,17 +601,16 @@ export default function Home() {
             <div className="absolute -bottom-10 left-4 transform rotate-60">
               <Rectangle className="stroke-accent-6 opacity-10" />
             </div>
-            <h6 className="text-gray-500 font-bold px-72 text-3xl text-center leading-normal mb-10">
+            <h6 className="text-gray-500 font-bold px-60 text-3xl text-center leading-normal mb-10">
               Subscribe to get information, latest news and other
               interesting offers about Cobham
             </h6>
-            <form className="flex justify-center">
-              <fieldset className="relative mr-8"></fieldset>
-              <span className="absolute -bottom-16 left-[378px] material-symbols-outlined text-gray-500 h-full w-16 flex justify-center items-center">
+            <form className="flex justify-center relative space-x-5">
+              <span className="absolute  left-[360px] material-symbols-outlined text-gray-500 h-full w-16 flex justify-center items-center">
                 mail
               </span>
               <input type="text" placeholder="Your Email" className="uppercase-none bg-white rounded-lg py-4 pl-14 w-96 h-12 focus:outline-none transition duration-300 border-20 border-transparent focus:border-accent-6" />
-              <button className="rounded-lg text-white bg-gradient-to-b bg-accent-1 from-accent-2/50 to-accent-2 px-16 ml-10">Subscribe</button>
+              <button className="rounded-lg text-white bg-gradient-to-b bg-accent-1 from-accent-2/50 to-accent-2 px-12">Subscribe</button>
             </form>
           </div>
         </div>
