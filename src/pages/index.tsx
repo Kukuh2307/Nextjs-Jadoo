@@ -16,10 +16,10 @@ import Mic from "../../public/images/ilustration-mic.png";
 import Gear from "../../public/images/ilustration-gear.png";
 
 // top selling section
-import Squirel from "../images/decor-Squirel-style-1.svg";
-import Destination1 from "../../public/images/Destination1.jpg";
-import Destination2 from "../../public/images/Destination2.jpg";
-import Destination3 from "../../public/images/Destination3.jpg";
+import Squirel from "../images/decor-squirel-style-1.svg";
+import Destination1 from "../../public/images/destination1.jpg";
+import Destination2 from "../../public/images/destination2.jpg";
+import Destination3 from "../../public/images/destination3.jpg";
 
 // Easy and Fast
 import EasyAndFast1 from "../../public/images/EasyAndFast1.jpg";
