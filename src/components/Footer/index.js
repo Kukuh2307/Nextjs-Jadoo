@@ -9,8 +9,8 @@ import Twitter from "../../../public/images/sosmed/tweeter.svg";
 
 export default function Footer() {
     return (
-        <div className='relative px-12 mb-10 flex flex-col'>
-            <div className='flex justify-around pt-28 px-12 mb-20'>
+        <div className='relative mb-10 flex flex-col max-w-7xl mx-auto'>
+            <div className='flex justify-around pt-28 mb-20'>
                 {/* Jaddo. */}
                 <div className='text-gray-700'>
                     <h6 className='text-gray-900 text-4xl mb-4 font-sans hover:text-accent-1 inline-block transition duration-200'>Jaddo.</h6>

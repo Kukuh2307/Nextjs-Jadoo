@@ -520,11 +520,11 @@ export default function Home() {
       {/* testimonial */}
       <Testimonial />
 
+      {/* suportby */}
       <section className="mb-28">
-        <div className="flex justify-between px-20 mx-auto ">
+        <div className="flex justify-between mx-auto max-w-7xl relative ">
           {/* Axon */}
-          <div className="relative flex justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
-            {/* pesawat 1 */}
+          <div className="relative flex px-10 justify-center items-center w-60 h-[86px] hover:shadow-xl duration-200 overflow-hidden rounded-2xl">
             <Image
               alt="axon"
               layout="responsive"
@@ -585,13 +585,13 @@ export default function Home() {
           <div className="absolute w-36 h-36 lg:-right-32 -bottom-[380px] -z-20 transform rotate-90 translate-y-2">
             <DecorPlus1 />
           </div>
-          <div className="absolute z-20 -top-7 -right-16 bg-accent-1 text-white rounded-full flex justify-center items-center">
+          <div className="absolute z-20 -top-7 -right-16 bg-accent-1 text-white rounded-full">
             <span className="material-symbols-outlined w-16 h-16 flex justify-center items-center">
               near_me
             </span>
           </div>
         </div>
-        <div className="w-full relative px-20">
+        <div className="relative px-20">
           <div className="bg-accent-9 rounded-tl-[120px] overflow-hidden rounded-3xl relative -z-20 pt-20 pb-20 mb-8">
             <div className="absolute -top-10 -right-40">
               {/* rectangle top right */}
