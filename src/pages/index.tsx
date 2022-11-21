@@ -585,11 +585,9 @@ export default function Home() {
           <div className="absolute w-36 h-36 lg:-right-32 -bottom-[380px] -z-20 transform rotate-90 translate-y-2">
             <DecorPlus1 />
           </div>
-          <div className="relative flex justify-center items-center">
-            <div className="absolute z-20 -top-7 -right-5 bg-accent-6 bg-gradient-to-t from-accent-2/50 to-accent-2 text-white rounded-full">
-              <span className="material-symbols-outlined w-16 h-16 flex justify-center items-center">
-                near_me
-              </span>
+          <div className="relative flex justify-end items-center">
+            <div className="relative lg:absolute flex justify-center items-center text-white rounded-full transform translate-y-0 lg:-translate-y-1/2 -translate-x-1/2 lg:translate-x-1/2 z-30 top-8 lg:top-0 right-auto lg:right-0 w-16 h-16 bg-gradient-to-t from-accent-2/50 to-accent-2 bg-accent-6">
+              <span className="material-symbols-outlined">near_me</span>
             </div>
           </div>
         </div>
@@ -607,15 +605,26 @@ export default function Home() {
               Subscribe to get information, latest news and other
               interesting offers about Cobham
             </h6>
-            <form className="flex justify-center relative space-x-5">
-              <div className="relative">
-                <span className="absolute material-symbols-outlined text-gray-500 h-full w-16 flex justify-center items-center">
-                  mail
+            <div className="flex justify-center">
+              <fieldset className="relative mr-0 lg:mr-8">
+                <div className="w-16 h-16 flex justify-center items-center absolute">
+                  <span className="material-symbols-outlined text-gray-500">
+                    mail
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  placeholder="Your Email"
+                  className="appearance-none rounded-tr-none rounded-br-none lg:rounded-tr-lg lg:rounded-br-lg rounded-lg py-5 pl-14 bg-white w-auto lg:w-96 focus:outline-none transition duration-300 border-20 border-transparent focus:border-accent-6"
+                />
+              </fieldset>
+              <button className="rounded-tl-none rounded-bl-none lg:rounded-tl-lg lg:rounded-bl-lg rounded-lg text-white bg-gradient-to-b from-accent-2/90 to-accent-2 py-5 px-4 lg:px-16">
+                <span className="hidden lg:block">Subscribe</span>
+                <span className="block lg:hidden material-symbols-outlined">
+                  search
                 </span>
-                <input type="text" placeholder="Your Email" className="uppercase-none bg-white rounded-lg py-4 pl-14 w-96 h-12 focus:outline-none transition duration-300 border-20 border-transparent focus:border-accent-6" />
-              </div>
-              <button className="rounded-lg text-white bg-gradient-to-b bg-accent-1 from-accent-2/50 to-accent-2 px-12">Subscribe</button>
-            </form>
+              </button>
+            </div>
           </div>
         </div>
       </section>
