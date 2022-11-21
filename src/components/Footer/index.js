@@ -11,9 +11,9 @@ export default function Footer() {
     return (
         <div className='relative mb-10 flex flex-col max-w-7xl mx-auto'>
             <div className='flex justify-around pt-28 mb-20'>
-                {/* Jaddo. */}
+                {/* Jadoo. */}
                 <div className='text-gray-700'>
-                    <h6 className='text-gray-900 text-4xl mb-4 font-sans hover:text-accent-1 inline-block transition duration-200'>Jaddo.</h6>
+                    <h6 className='text-gray-900 text-4xl mb-4 font-sans hover:text-accent-1 inline-block transition duration-200'>Jadoo.</h6>
                     <p className='w-72 text-gray-500 italic'>Book your trip in minute, get full
                         Control for much longer.
                     </p>

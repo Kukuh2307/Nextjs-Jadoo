@@ -585,10 +585,12 @@ export default function Home() {
           <div className="absolute w-36 h-36 lg:-right-32 -bottom-[380px] -z-20 transform rotate-90 translate-y-2">
             <DecorPlus1 />
           </div>
-          <div className="absolute z-20 -top-7 -right-5 bg-accent-6 bg-gradient-to-t from-accent-2/50 to-accent-2 text-white rounded-full">
-            <span className="material-symbols-outlined w-16 h-16 flex justify-center items-center">
-              near_me
-            </span>
+          <div className="relative flex justify-center items-center">
+            <div className="absolute z-20 -top-7 -right-5 bg-accent-6 bg-gradient-to-t from-accent-2/50 to-accent-2 text-white rounded-full">
+              <span className="material-symbols-outlined w-16 h-16 flex justify-center items-center">
+                near_me
+              </span>
+            </div>
           </div>
         </div>
         <div className="max-w-7xl mx-auto">
@@ -606,10 +608,12 @@ export default function Home() {
               interesting offers about Cobham
             </h6>
             <form className="flex justify-center relative space-x-5">
-              <span className="absolute  left-[360px] material-symbols-outlined text-gray-500 h-full w-16 flex justify-center items-center">
-                mail
-              </span>
-              <input type="text" placeholder="Your Email" className="uppercase-none bg-white rounded-lg py-4 pl-14 w-96 h-12 focus:outline-none transition duration-300 border-20 border-transparent focus:border-accent-6" />
+              <div className="relative">
+                <span className="absolute material-symbols-outlined text-gray-500 h-full w-16 flex justify-center items-center">
+                  mail
+                </span>
+                <input type="text" placeholder="Your Email" className="uppercase-none bg-white rounded-lg py-4 pl-14 w-96 h-12 focus:outline-none transition duration-300 border-20 border-transparent focus:border-accent-6" />
+              </div>
               <button className="rounded-lg text-white bg-gradient-to-b bg-accent-1 from-accent-2/50 to-accent-2 px-12">Subscribe</button>
             </form>
           </div>
